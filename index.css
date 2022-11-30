@@ -1,0 +1,80 @@
+:root{
+  --main-color:rgba(46, 167, 128, 0.826);
+  --main-font:cursive
+
+}
+body{
+  background: linear-gradient(113deg, rgb(67 77 86) 0%, rgb(31 34 36) 66%);
+  font-family: cursive;
+}
+h1{
+  color: var(--main-color);
+  font-family: var(--main-font);
+  text-align: center;
+ font-weight: bold;
+ font-size: 100px;
+ padding-top: 30px;
+}
+.inputs{
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  border: 2px solid var(--main-color);
+  border-radius: 4px;
+  height: 100px;
+  width: 500px;
+  margin-left: 30%;
+  margin-top: 30px;
+}
+input{
+  width: 50%;
+  height: 50%;
+  border: none;
+}
+button{
+  border: none;
+  border-radius: 5px;
+  color: var(--main-color);
+  font-family: var(--main-font);
+  width: 20%;
+  height: 50%;
+  background-color: wheat;
+  cursor: pointer;
+  font-family: var(--main-font);
+}
+button:hover{
+  background-color: var(--main-color);
+  color: wheat;
+}
+.todo-lists{
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  border: 2px solid var(--main-color);
+  width: 500px;
+  margin-left: 30%;
+  height: max-content;
+  padding: 15px;
+  margin-top: 5px;
+}
+.text-todo{
+  color: wheat;
+  font-family: var(--main-font);
+  font-size: 150%;
+  margin-left: 5%;
+}
+span{
+  width: 15%;
+  background-color: wheat;
+  color: var(--main-color);
+  margin-right: 50px;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: var(--main-font);
+}
+span:hover{
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: wheat;
+}
